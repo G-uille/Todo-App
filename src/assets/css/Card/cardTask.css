@@ -1,0 +1,36 @@
+
+.container-card-task{
+    width: 98%;
+    background-color: #F3F3F3;
+    padding: 0px 0px 0px 10px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    min-height: 50px;
+    overflow-x: hidden;
+}
+
+/*----Texto de la tarea-----*/
+.card-task__text{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+/*----Icono de eliminar------*/
+.card-task__icon{
+    margin-right: 10px;
+    height: 50px;
+    border-radius: 0px !important;
+    width: 50px;
+    background-color: #EC4A3D !important;
+    color: #ffffff !important;
+    transform: translateX(50px);
+    transition: all .10s ease !important;
+}
+.card-task__icon.show{
+    transform: translateX(0px);
+}

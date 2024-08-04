@@ -1,0 +1,11 @@
+
+/*------Contenedor cuando no existen taeas pendientes----*/
+.container-completed-tasks{
+    height: 100%;
+    width: 320px;
+    color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
